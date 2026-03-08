@@ -6,7 +6,8 @@ This project demonstrates DevOps best practices, including automated pipelines, 
 This project implements a fully automated Continuous Integration and Continuous Deployment pipeline deployed on AWS cloud infrastructure.  
 The pipeline automatically:  
 - Pulls source code from GitHub  
-- Performs static code analysis using SonarQube  
+- Performs static code analysis using SonarQube
+- GitHub Webhooks for automatic pipeline triggers
 - Builds a Docker image  
 - Deploys the application inside a Docker container  
 - Runs the application on a cloud-based infrastructure  
@@ -84,6 +85,21 @@ This project showcases several important DevOps engineering skills:
 <img width="800" height="1400" alt="Screenshot 2026-03-08 163617" src="https://github.com/user-attachments/assets/df903f43-9c94-409d-8acf-17f9b1586a3f" />
 </p>
 
+### Jenkins Pipeline Built for pulling code from Github and pushing to SonarQube
+<p align="center">
+<img width="800" height="1400" alt="jenkins-pipeline-builds" src="https://github.com/user-attachments/assets/2950af5c-10c4-48f6-8fd6-9045380403c3" />
+</p>
+
+### SonarQube for Code Analysis
+<p align="center">
+<img width="800" height="1400" alt="sonarqube" src="https://github.com/user-attachments/assets/40f6e79c-4888-4d84-9811-cabbe6314afc" />
+</p>
+
+### Final Jenkins Pipeline after integrating Github, SonarQube, and Docker for Deployment
+<p align="center">
+<img width="800" height="1400" alt="jenkins-pipeline-builds" src="https://github.com/user-attachments/assets/1e4efb04-6bad-48fc-941b-682995d4293a" />
+</p>
+
 ### Deployed Website
 <p align="center">
 <img width="800" height="1400" alt="Screenshot 2026-03-08 163716" src="https://github.com/user-attachments/assets/3daa0f16-174f-41eb-8344-53e9513e99f2" />
@@ -97,11 +113,11 @@ This project showcases several important DevOps engineering skills:
 ## 🎯 Key Learning Outcomes  
 Through this project, I gained hands-on experience in:  
 - Designing CI/CD pipelines using Jenkins
+- Implementing GitHub Webhooks for automatic pipeline triggers
 - Integrating SonarQube for automated code quality analysis
 - Building and deploying Docker containers
 - Managing cloud infrastructure using AWS EC2
 - Automating the software delivery lifecycle
-- Implementing DevOps best practices
 
 ## 🚀 Future Improvements  
 - Planned improvements to enhance this project:
@@ -110,4 +126,3 @@ Through this project, I gained hands-on experience in:
 - Deploy containers using Kubernetes
 - Add automated testing stage
 - Integrate monitoring with Prometheus & Grafana
-- Implement GitHub Webhooks for automatic pipeline triggers
